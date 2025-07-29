@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=REM&display=swap');
+
+:root{
+    --cor0:#EAE0CC;
+    --cor1:#C9ADA1;
+    --cor2:#A0A083;
+    --cor3:#798478;
+    --cor4:#4D6A6D;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'REM', sans-serif;
+    background-color: var(--cor0);
+}
+
+header{
+    background-color:var(--cor3);
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+header h1{
+    padding-top: 10px;
+    color: white;
+}
+
+header h3{
+    padding: 10px;
+    padding-bottom: 15px;
+    font-weight: normal;
+    color: white;
+}
+
+header p{
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header a:hover{
+    transition-duration: 0.3s;
+    color: azure;
+    text-decoration: none;
+   background-color: rgba(255, 255, 255, 0.267);
+    padding: 12px;
+}
+
+main{
+    margin: auto;
+    text-align: center;
+ 
+}
+
+#tabela{    
+    max-width: 390px;
+    margin: auto;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid rgb(71, 71, 71);
+    border-top: 0px;
+
+    
+}
+
+#resultado{
+    background-color: rgb(189, 189, 189);
+    text-align: right;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid rgb(71, 71, 71);
+    max-width: 390px;
+    margin: auto;
+    
+
+}
+
+#resultado p {
+    background-color: #ffffff;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid rgb(71, 71, 71);
+
+
+}
+
+main div table{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    padding: 30px;
+    background-color: white;
+}
+
+main div table tr th{
+    padding: 30px;
+    background-color: rgb(207, 207, 207);
+    border-radius: 5px;
+    margin: 10px;   
+    border-color: black;
+    user-select: none;
+}
+
+main div table tr th:active{
+    background-color: rgb(194, 194, 194); 
+    box-shadow:
+    inset -2px -2px 3px rgb(231, 231, 231),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);  
+}
+
+button{
+    text-decoration: none;
+}
+

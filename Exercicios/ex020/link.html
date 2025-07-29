@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        .nao-copiavel {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+        }
+        a:visited{
+            color: aqua;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+
+        }
+        a::after{
+            content: "<--";
+            text-decoration: none;
+            font-weight: normal;
+        }
+        a::before{
+            content: "-->";
+        }
+        p:active{
+            color: aqua;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="http://github.com/gustavoguanabara">Github</a></li>
+        <li><a href="https://www.youtube.com/@CursoemVideo">Canal</a></li>
+        <li><a href="www.cursoemvideo.com">Site CursoemVideo</a></li>
+    </ul>
+    <div>
+        <p style="background-color: aquamarine;" class="nao-copiavel">Olá, Mundo</p>
+    </div>
+    
+</body>
+</html>

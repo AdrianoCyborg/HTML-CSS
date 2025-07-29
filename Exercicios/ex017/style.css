@@ -1,0 +1,15 @@
+@charset "UTF-8";
+h1{
+    padding: 0;
+}
+div{
+    padding: 0;
+    background-color: aqua;
+}
+main{
+    padding: 0;
+    background-color: brown;
+}
+p{
+    padding: 0;
+}
